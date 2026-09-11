@@ -13,7 +13,6 @@ public class GreetServlet extends HttpServlet{
 		
 		PrintWriter Writer=res.getWriter();
 		Writer.append("<h1>Good Morning</h1>");
-		boolean b=false;
 	}
 	
 
