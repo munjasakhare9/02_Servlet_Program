@@ -16,7 +16,11 @@ public class First_Servlet extends HttpServlet {
 		
 		PrintWriter writer=resp.getWriter();
 		writer.append("<h1>Welcome to web development</h1>");
+
 		String str="I am java developer";
+		
+		int a=10;
+		double d=10.20;
 	}
 
 }
