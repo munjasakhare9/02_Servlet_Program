@@ -16,7 +16,6 @@ public class second_servlet extends HttpServlet {
 		
 		PrintWriter writer=resp.getWriter();
 		writer.append("<h1>Welcome to java development</h1>");
-		int a=500;
 	}
 
 }
